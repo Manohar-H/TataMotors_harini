@@ -1,0 +1,318 @@
+/* 
+Description: QAP 1 CSS document
+Author: Harini Manohar
+Dates: Sept 23 - Sept 29, 2024
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.mainbox {
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px;
+  background: white;
+  border: #1368B4 solid 2px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #1368B4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+
+nav a {
+  color: aliceblue;
+  background-color: #1368B4;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: x-large;
+}
+
+nav a:hover {
+  color: #1368B4;
+  background-color: aliceblue;
+  border: 1px solid #1368B4;
+}
+
+h1 {
+  color: #1368B4;
+  background-color: aliceblue;
+  border: 3px double #1368B4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 25px;
+  padding: 20px;
+}
+
+.about-text, .innovation-pic, .sustainability-text, .road-pic {
+  text-align: left;
+}
+
+.about-pic, .sustainability-pic {
+  text-align: right;
+}
+
+.text-block {
+  text-align: justify;
+}
+
+h2 {
+  color: #1368B4;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration:underline;
+}
+
+h3 {
+  color: #1368B4;
+}
+
+p {
+  font-size: 20px;
+  color: #1368B4;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+blockquote {
+  font-style: italic;
+  color: #1368B4; 
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+
+blockquote::after {
+  content: close-quote;
+}
+
+ol {
+  color: #1368B4;
+  margin-left:20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: underline;
+  color: #1368B4;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+  background-color: #1368B4;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: #1368B4;
+  background-color: aliceblue;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #1368B4;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: #1368B4;
+  border: 1px solid #1368B4;
+}
+
+.explore-button {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+.audio-wrapper {
+  text-align: center;
+  margin: 20px auto; 
+}
+
+audio {
+  display: block;
+  margin: 0 auto; 
+}
+
+.video-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1000px; 
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 1000px; 
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 2px solid #1368B4;
+}
+
+th {
+  background-color: #1368B4;
+  color: white;
+  text-align: center;
+}
+
+td {
+  background-color: aliceblue;
+  color: #1368B4;
+}
+
+table tr:hover {
+  background-color: aliceblue;
+}
+
+.contact-form {
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: aliceblue; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: 2px solid #1368B4; 
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+label {
+  flex-basis: 40%; 
+  padding-right: 10px;
+  font-size: 16px;
+  color: #1368B4; 
+  font-size: 18px;
+}
+
+input, select {
+  flex-basis: 55%; 
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #1368B4;
+  border-radius: 5px;
+  background-color: white;
+  color:#1368B4;
+}
+
+.button1 {
+  width: 100%;
+  padding: 12px;
+  font-size: 22px;
+  background-color: #1368B4; 
+  color: aliceblue; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button1:hover {
+  color:#1368B4;
+  background-color: aliceblue;
+  border:#1368B4 solid 2px;
+}
+
+.why-choose-section {
+  width:80%;
+  background-color: aliceblue; 
+  border-radius: 10px;
+  border: 2px solid #1368B4; 
+  margin-top:25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-choose-section p {
+  text-align: center;
+}
+
+footer {
+  background-color: #1368B4;
+  color: aliceblue;
+  padding: 25px;
+  text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: large;
+}

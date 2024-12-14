@@ -1,0 +1,42 @@
+# Description: QAP 1 Submission Answers
+# Author: Harini Manohar
+# Dates: Sept 23 - Sept 29, 2024
+
+1.	How many hours did it take you to complete this assessment? 
+    
+    Started working on it on 23rd September and completed it on 29th September. Roughly spent about 3 hours everyday. So roughly 14 to 15 hours totally just to write the HTML and CSS. 
+
+    Took much longer to research the content. My fater used to work in the automobile industry and worked for this particular brand so used his help in getting some content. Spent free time researching and collating data on my phone.
+
+
+2.	What online resources you have used? 
+    
+    a. Mainly your lectures. Watched each lecture more than thrice to be able to grasp the content and be confident enough to do it by myself.
+
+    b. Used W3 Schools website to brush up on some of the CSS features. 
+
+    c. Used Google search to research content: 
+        - Tata Motors website, Indian websites (CarDekho, CarWale etc). 
+        - iStock images for pictures. 
+        - Made my own video using Canva (photo slideshow) and 
+        - Used text-to-speech to create the audiofiles. 
+
+
+3.	Did you need to ask any of your friends in solving the problems. (If yes, please mention name of the friend. They must be amongst your class fellows.)
+
+No
+
+
+4.	Did you need to ask questions to any of your instructors? If so, how many questions did you ask (or how many help sessions did you require)?
+
+No
+
+
+5.	Rate (subjectively) the difficulty of Making this all! from your own perspective, and whether you feel confident that you can solve a similar but different problem requiring some of the same techniques in the future now that you’ve completed this one.
+
+8.5 On a scale of 1 to 10, 10 being the most difficult 
+    (pretty difficult for me as I am absolutely new this this subject - I am from a medical field). 
+
+Now that I have completed this, I feel confident that I can do it again but will definitely take time. Need more hands-on practice. Everyday after class I re-watch your videos to do it along with the video but still I am struggling. 
+
+I tried to be as thorough as possible and validated it with an HTML validator with no red attributes. So let's see if I pass! 
